@@ -1,0 +1,13 @@
+mkdir workspace
+cd workspace
+git init
+touch file1 file2 file3
+git status
+git add .
+git commit -m "added these file to src"
+git status
+git ls-files
+git log --oneline
+git remote add origin(url)
+git remote -v
+git push origin master
